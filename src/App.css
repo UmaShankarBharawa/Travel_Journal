@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-container {
+    background-color: #F55A5A;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header--globeIcon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header--heading {
+    color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 40px 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card--details {
+    margin: auto 20px;
+}
+
+.card--location {
+    display: flex;
+}
+
+.location-icon {
+    width: 9px;
+    height: 12px;
+    align-self: center;
+    margin-right: 5px;
+}
+
+.location {
+    color: #2B283A;
+    margin-right: 15px;
+}
+
+.google-url {
+    color: #918E9B;
+    text-decoration: underline;
+}
+
+.card--image {
+    width: 175px;
+}
+
+.title {
+    color: #2B283A;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dates {
+    color: #2B283A;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #2B283A;
+}
+
+hr {
+    border: 1px solid #F5F5F5;
+    width: 86%;
+    margin: auto;
 }
